@@ -7,7 +7,7 @@ cask "burnrate" do
   desc "Menu bar app showing Claude Code usage and reset countdowns"
   homepage "https://github.com/kittayawat-aong/Burnrate"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Burnrate.app"
 end
